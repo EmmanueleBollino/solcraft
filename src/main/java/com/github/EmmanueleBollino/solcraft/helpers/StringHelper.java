@@ -2,6 +2,9 @@ package com.github.EmmanueleBollino.solcraft.helpers;
 
 import java.util.stream.Stream;
 
+/**
+ * Helper functions for Solidity related strings.
+ */
 public class StringHelper {
     public static String joinCamelCase(String... strings) {
         StringBuilder result = new StringBuilder();

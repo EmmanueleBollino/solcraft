@@ -2,6 +2,10 @@ package com.github.EmmanueleBollino.solcraft.soliditycomponents;
 
 import java.util.Objects;
 
+/**
+ * Represents a comment in Solidity.
+ * A comment can be single line, multi line and documentation.
+ */
 public class Comment extends Statement {
     private String comment;
     private boolean documentation;

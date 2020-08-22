@@ -2,6 +2,9 @@ package com.github.EmmanueleBollino.solcraft.soliditycomponents;
 
 import java.util.stream.Stream;
 
+/**
+ * Represents an array type in Solidity with <i>n</i> dimensions.
+ */
 public class Array extends Type {
     private final Integer[] dimensions;
 

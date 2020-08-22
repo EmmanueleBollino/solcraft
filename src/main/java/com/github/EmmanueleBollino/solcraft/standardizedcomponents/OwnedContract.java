@@ -4,6 +4,10 @@ import com.github.EmmanueleBollino.solcraft.soliditycomponents.*;
 
 import java.util.List;
 
+/**
+ * Represents an abstract contract that should be extended by contracts that hold a owner concept.
+ * The owner is the address that sends the deploy transaction. However the owner can change itself.
+ */
 public class OwnedContract extends Contract {
     private static final String DEFAULT_CONTRACT_NAME = "Owned";
 
